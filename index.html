@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Alicia Díaz-Pinto | Ecosistema Social</title>
+
+  <meta
+    name="description"
+    content="Porfolio digital de Alicia Díaz-Pinto Tercero, estudiante de Trabajo Social con experiencia en voluntariado, infancia, apoyo educativo e intervención comunitaria."
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- PANTALLA DE BIENVENIDA -->
+  <div class="splash" id="splash" role="dialog" aria-label="Bienvenida al porfolio de Alicia Díaz-Pinto">
+    <div class="splash-bg" aria-hidden="true">
+      <span class="splash-shape s1"></span>
+      <span class="splash-shape s2"></span>
+      <span class="splash-shape s3"></span>
+      <span class="splash-shape s4"></span>
+    </div>
+
+    <div class="splash-inner">
+
+      <div class="splash-left">
+        <p class="splash-eyebrow">Porfolio digital · Trabajo Social</p>
+        <h1 class="splash-name">Alicia<br>Díaz-Pinto<br>Tercero</h1>
+      </div>
+
+      <div class="splash-divider" aria-hidden="true"></div>
+
+      <div class="splash-right">
+        <p class="splash-tagline">
+          Estudiante de 4.º curso de <strong>Trabajo Social</strong>
+          en la Universidad de Castilla-La Mancha.
+        </p>
+        <p class="splash-tagline splash-tagline-sub">
+          Este porfolio es mi ecosistema: raíces formativas,
+          perfil personal, áreas de intervención y experiencias
+          que me han dado forma como futura trabajadora social.
+        </p>
+        <button class="splash-cta" id="splashCta">
+          <span class="splash-cta-text">Explorar el porfolio</span>
+          <span class="splash-cta-arrow" aria-hidden="true">→</span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="page-particles" id="pageParticles" aria-hidden="true"></div>
+
+  <header class="header">
+    <nav class="navbar">
+      <a href="#inicio" class="brand brand-text-only">
+  <span class="brand-name">Alicia Díaz-Pinto Tercero</span>
+      </a>
+
+      <button class="menu-button" id="menuButton" aria-label="Abrir menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#raices">Formación</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#tronco">Perfil</a></li>
+        <li><a href="#ramas">Áreas</a></li>
+        <li><a href="#intervencion">Intervención</a></li>
+        <li><a href="#hojas">Competencias</a></li>
+        <li><a href="#valores">Valores</a></li>
+        <li><a href="#frutos">Experiencia</a></li>
+        <li><a href="#semillas">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <aside class="side-nav" aria-label="Navegación lateral">
+    <a href="#inicio" data-label="Inicio"></a>
+    <a href="#raices" data-label="Formación"></a>
+    <a href="#proyectos" data-label="Proyectos"></a>
+    <a href="#tronco" data-label="Perfil"></a>
+    <a href="#ramas" data-label="Áreas"></a>
+    <a href="#intervencion" data-label="Intervención"></a>
+    <a href="#hojas" data-label="Competencias"></a>
+    <a href="#valores" data-label="Valores"></a>
+    <a href="#frutos" data-label="Experiencia"></a>
+    <a href="#semillas" data-label="Contacto"></a>
+  </aside>
+
+  <main>
+    <section id="inicio" class="hero section-watch">
+      <div class="hero-background">
+        <span class="floating-shape shape-1"></span>
+        <span class="floating-shape shape-2"></span>
+        <span class="floating-shape shape-3"></span>
+      </div>
+
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Porfolio digital · Trabajo Social</p>
+
+        <h1>
+          Mi ecosistema social: crecer, acompañar y transformar.
+        </h1>
+
+        <p class="hero-text">
+          Soy Alicia Díaz-Pinto Tercero, estudiante de 4º curso de Trabajo Social.
+          Este porfolio presenta mi recorrido como un ecosistema: raíces formativas,
+          tronco personal, ramas de intervención, hojas de competencias, frutos de experiencia
+          y semillas de futuro profesional.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#arbol" class="btn btn-primary">Explorar árbol</a>
+
+          <a href="assets/curriculum-alicia.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
+            Ver CV
+          </a>
+        </div>
+      </div>
+
+      <div id="arbol" class="tree-stage reveal" aria-label="Árbol interactivo del ecosistema social">
+        <div class="tree-title">
+          <span>Ecosistema Social</span>
+          <p>Haz clic en cada parte del árbol</p>
+        </div>
+
+        <div class="tree-image-layer">
+          <img
+            src="assets/arbol-ecosistema.png"
+            alt="Árbol ilustrado del ecosistema social"
+            class="tree-image"
+          />
+
+          <a href="#raices" class="tree-node node-raices" data-tip="La base académica y formativa de mi recorrido.">
+            <strong>Raíces</strong>
+            <span>Formación</span>
+          </a>
+
+          <a href="#tronco" class="tree-node node-tronco" data-tip="Mi identidad profesional, mis valores y mi forma de trabajar.">
+            <strong>Tronco</strong>
+            <span>Perfil personal</span>
+          </a>
+
+          <a href="#ramas" class="tree-node node-ramas" data-tip="Los ámbitos sociales hacia los que quiero orientar mi intervención.">
+            <strong>Ramas</strong>
+            <span>Áreas de intervención</span>
+          </a>
+
+          <a href="#hojas" class="tree-node node-hojas" data-tip="Las habilidades sociales, profesionales y digitales que dan vida al perfil.">
+            <strong>Hojas</strong>
+            <span>Competencias</span>
+          </a>
+
+          <a href="#frutos" class="tree-node node-frutos" data-tip="Las experiencias prácticas que ya forman parte de mi recorrido.">
+            <strong>Frutos</strong>
+            <span>Experiencia</span>
+          </a>
+
+          <a href="#semillas" class="tree-node node-semillas" data-tip="Las oportunidades futuras para seguir creciendo profesionalmente.">
+            <strong>Semillas</strong>
+            <span>Futuro</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="raices" class="section section-watch">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 · Raíces · Formación académica</p>
+        <h2>La formación que sostiene mi crecimiento profesional.</h2>
+        <p>
+          Las raíces representan mi base académica: el recorrido educativo previo y la formación
+          universitaria que actualmente orienta mi desarrollo hacia el Trabajo Social.
+        </p>
+      </div>
+
+      <div class="academic-layout">
+        <article class="academic-panel reveal">
+          <span class="card-kicker">Formación académica</span>
+          <h3>Recorrido educativo</h3>
+
+          <div class="academic-timeline">
+            <div class="academic-item">
+              <div class="academic-year">2016 — 2023</div>
+
+              <div class="academic-content">
+                <h4>Educación Secundaria Obligatoria y Bachillerato</h4>
+                <p>I.E.S. Campo de Calatrava</p>
+              </div>
+            </div>
+
+            <div class="academic-item academic-current">
+              <div class="academic-year">2023 — Actualidad</div>
+
+              <div class="academic-content">
+                <h4>Grado en Trabajo Social</h4>
+                <p>Universidad de Castilla-La Mancha · Campus de Cuenca</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="academic-extra">
+  <article class="card reveal">
+    <span class="card-kicker">Experiencia internacional</span>
+    <h3>Erasmus en Portugal</h3>
+    <p>Adaptación a un nuevo contexto académico, cultural y social.</p>
+    <strong>Curso 2025/2026</strong>
+  </article>
+
+  <article class="card certificate-card reveal">
+    <span class="card-kicker">Curso complementario</span>
+    <h3>Monitor de Ocio y Tiempo Libre</h3>
+    <p>Formación relacionada con actividades educativas, ocio y dinamización.</p>
+
+    <a
+      href="assets/titulo-monitor-ocio-tiempo-libre.pdf"
+      class="certificate-button"
+      target="_blank"
+      rel="noopener"
+    >
+      Ver título
+    </a>
+  </article>
+
+  <article class="card certificate-card reveal">
+    <span class="card-kicker">Curso complementario</span>
+    <h3>Manipulador de Alimentos</h3>
+    <p>Formación útil en entornos socioeducativos y comunitarios.</p>
+
+    <a
+      href="assets/titulo-manipulador-alimentos.pdf"
+      class="certificate-button"
+      target="_blank"
+      rel="noopener"
+    >
+      Ver título
+    </a>
+  </article>
+</div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section section-soft section-watch">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 · Proyectos universitarios</p>
+        <h2>Aprendizajes académicos aplicados a contextos sociales.</h2>
+        <p>
+          Esta sección recoge trabajos, propuestas y aprendizajes desarrollados durante la formación
+          universitaria. Representan una forma de conectar la teoría del Trabajo Social con posibles
+          situaciones reales de intervención.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-number">01</div>
+          <h3>Diseño de propuesta socioeducativa</h3>
+          <p>
+            Planteamiento de actividades orientadas al desarrollo personal, la participación
+            y el acompañamiento educativo de menores.
+          </p>
+          <div class="project-tags">
+            <span>Infancia</span>
+            <span>Educación</span>
+            <span>Participación</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">02</div>
+          <h3>Análisis de caso social</h3>
+          <p>
+            Aproximación al estudio de una situación social desde la observación, la identificación
+            de necesidades y la búsqueda de posibles recursos de apoyo.
+          </p>
+          <div class="project-tags">
+            <span>Diagnóstico social</span>
+            <span>Acompañamiento</span>
+            <span>Recursos</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-number">03</div>
+          <h3>Intervención comunitaria</h3>
+          <p>
+            Reflexión sobre la importancia de la comunidad, las redes de apoyo y la participación
+            social como elementos clave para mejorar el bienestar colectivo.
+          </p>
+          <div class="project-tags">
+            <span>Comunidad</span>
+            <span>Redes de apoyo</span>
+            <span>Bienestar</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="tronco" class="section section-watch">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 · Tronco · Perfil personal</p>
+        <h2>Mi perfil: estabilidad, compromiso y mirada humana.</h2>
+      </div>
+
+      <div class="profile-layout">
+        <div class="profile-photo reveal">
+          <img src="assets/foto-perfil.jpg" alt="Foto de Alicia Díaz-Pinto Tercero" />
+          <div class="photo-label">
+            <strong>Alicia Díaz-Pinto</strong>
+            <span>Estudiante de Trabajo Social</span>
+          </div>
+        </div>
+
+        <article class="profile-card reveal">
+          <p>
+            Me considero una persona responsable, empática y con facilidad para adaptarme
+            a nuevos entornos sociales. Me siento cómoda con el trato directo con personas
+            y me interesa aplicar mis conocimientos en contextos reales de intervención.
+          </p>
+
+          <p>
+            Mi experiencia en voluntariado, cuidado infantil y apoyo educativo me ha permitido
+            desarrollar competencias de comunicación, organización, resolución de conflictos
+            y acompañamiento.
+          </p>
+
+          <div class="value-list">
+            <span>Empatía</span>
+            <span>Responsabilidad</span>
+            <span>Adaptación</span>
+            <span>Trato con personas</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="ramas" class="section section-soft section-watch">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 · Ramas · Áreas de intervención</p>
+        <h2>Áreas hacia las que quiero orientar mi intervención.</h2>
+        <p>
+          Las ramas representan los ámbitos profesionales en los que quiero seguir creciendo:
+          infancia, familia, comunidad, apoyo educativo y acompañamiento social.
+        </p>
+      </div>
+
+      <div class="branch-grid">
+        <article class="branch-card reveal">
+          <span>01</span>
+          <h3>Infancia y familia</h3>
+          <p>
+            Interés en el acompañamiento a menores, apoyo a familias y creación de espacios
+            seguros para el desarrollo personal, social y educativo.
+          </p>
+        </article>
+
+        <article class="branch-card reveal">
+          <span>02</span>
+          <h3>Intervención comunitaria</h3>
+          <p>
+            Motivación por participar en proyectos de cohesión social, participación ciudadana
+            y apoyo a colectivos en situación de vulnerabilidad.
+          </p>
+        </article>
+
+        <article class="branch-card reveal">
+          <span>03</span>
+          <h3>Apoyo educativo</h3>
+          <p>
+            Experiencia en refuerzo escolar, acompañamiento a niños y desarrollo de hábitos
+            de estudio desde una perspectiva cercana.
+          </p>
+        </article>
+
+        <article class="branch-card reveal">
+          <span>04</span>
+          <h3>Dinamización socioeducativa</h3>
+          <p>
+            Planificación de actividades lúdico-educativas, fomento de la autonomía infantil
+            y resolución de conflictos.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-card reveal">
+        <p>
+          “Intervenir también es escuchar el entorno de cada persona.”
+        </p>
+      </div>
+    </section>
+
+    <section id="intervencion" class="section section-watch">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 · Método de intervención</p>
+        <h2>Una intervención basada en escuchar, acompañar y fortalecer.</h2>
+        <p>
+          Entiendo la intervención social como un proceso que parte de la escucha, reconoce
+          el contexto de cada persona y busca favorecer su autonomía, participación y bienestar.
+        </p>
+      </div>
+
+      <div class="intervention-cycle">
+        <article class="intervention-step reveal">
+          <span>01</span>
+          <h3>Escuchar</h3>
+          <p>
+            Comprender la situación de la persona antes de actuar, atendiendo a sus necesidades,
+            emociones y contexto.
+          </p>
+        </article>
+
+        <article class="intervention-step reveal">
+          <span>02</span>
+          <h3>Acompañar</h3>
+          <p>
+            Estar presente durante el proceso, respetando los ritmos personales y evitando imponer
+            soluciones cerradas.
+          </p>
+        </article>
+
+        <article class="intervention-step reveal">
+          <span>03</span>
+          <h3>Orientar</h3>
+          <p>
+            Facilitar información, recursos y alternativas que puedan ayudar a tomar decisiones
+            más seguras y adaptadas.
+          </p>
+        </article>
+
+        <article class="intervention-step reveal">
+          <span>04</span>
+          <h3>Fortalecer</h3>
+          <p>
+            Favorecer la autonomía, la participación y la confianza de la persona en sus propias
+            capacidades.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="hojas" class="section section-soft section-watch">
+      <div class="section-heading reveal">
+        <p class="eyebrow">06 · Hojas · Competencias</p>
+        <h2>Competencias que dan vida a mi forma de trabajar.</h2>
+      </div>
+
+      <div class="skills-layout">
+        <article class="skill-card reveal">
+          <h3>Competencias sociales</h3>
+          <div class="leaf-tags">
+            <span>Empatía</span>
+            <span>Escucha activa</span>
+            <span>Trato con personas</span>
+            <span>Resolución de conflictos</span>
+            <span>Adaptación</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <h3>Competencias profesionales</h3>
+          <div class="leaf-tags">
+            <span>Trabajo en equipo</span>
+            <span>Responsabilidad</span>
+            <span>Organización</span>
+            <span>Planificación</span>
+            <span>Autonomía</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <h3>Competencias digitales</h3>
+          <div class="leaf-tags">
+            <span>Word</span>
+            <span>PowerPoint</span>
+            <span>Excel</span>
+            <span>Trabajo remoto</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <h3>Idiomas</h3>
+          <div class="language-list">
+            <div>
+              <strong>Inglés</strong>
+              <span>Intermedio</span>
+            </div>
+            <div>
+              <strong>Portugués</strong>
+              <span>Básico</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="valores" class="section section-watch">
+      <div class="section-heading reveal">
+        <p class="eyebrow">07 · Mapa de valores</p>
+        <h2>Los valores que orientan mi mirada profesional.</h2>
+        <p>
+          En Trabajo Social, las competencias son importantes, pero también lo son los valores
+          desde los que se acompaña a las personas. Este mapa recoge los principios que quiero
+          seguir fortaleciendo en mi desarrollo profesional.
+        </p>
+      </div>
+
+      <div class="values-map reveal">
+  <svg class="values-connections" viewBox="0 0 1000 560" preserveAspectRatio="none" aria-hidden="true">
+    <!-- conexiones con el centro -->
+    <path class="center-link" d="M 500 280 C 430 220, 340 165, 240 120" />
+    <path class="center-link" d="M 500 280 C 570 220, 660 165, 760 120" />
+    <path class="center-link" d="M 500 280 C 410 270, 280 250, 150 260" />
+    <path class="center-link" d="M 500 280 C 590 270, 720 250, 850 260" />
+    <path class="center-link" d="M 500 280 C 430 340, 345 405, 250 450" />
+    <path class="center-link" d="M 500 280 C 570 340, 655 405, 750 450" />
+    <path class="center-link" d="M 500 280 C 500 210, 500 145, 500 80" />
+    <path class="center-link" d="M 500 280 C 500 350, 500 420, 500 490" />
+
+    <!-- conexiones entre valores -->
+    <path class="outer-link" d="M 240 120 C 330 70, 410 60, 500 80" />
+    <path class="outer-link" d="M 500 80 C 590 60, 670 70, 760 120" />
+    <path class="outer-link" d="M 760 120 C 820 155, 845 205, 850 260" />
+    <path class="outer-link" d="M 850 260 C 835 340, 805 400, 750 450" />
+    <path class="outer-link" d="M 750 450 C 650 500, 575 505, 500 490" />
+    <path class="outer-link" d="M 500 490 C 425 505, 350 500, 250 450" />
+    <path class="outer-link" d="M 250 450 C 185 405, 155 340, 150 260" />
+    <path class="outer-link" d="M 150 260 C 155 205, 180 155, 240 120" />
+
+    <!-- nodos visuales -->
+    <circle cx="500" cy="280" r="7" class="center-dot" />
+    <circle cx="240" cy="120" r="5" />
+    <circle cx="760" cy="120" r="5" />
+    <circle cx="150" cy="260" r="5" />
+    <circle cx="850" cy="260" r="5" />
+    <circle cx="250" cy="450" r="5" />
+    <circle cx="750" cy="450" r="5" />
+    <circle cx="500" cy="80" r="5" />
+    <circle cx="500" cy="490" r="5" />
+  </svg>
+
+  <div class="value-center">
+    <strong>Trabajo Social</strong>
+    <span>Mirada humana y comunitaria</span>
+  </div>
+
+  <span class="value-bubble value-1">Empatía</span>
+  <span class="value-bubble value-2">Respeto</span>
+  <span class="value-bubble value-3">Responsabilidad</span>
+  <span class="value-bubble value-4">Justicia social</span>
+  <span class="value-bubble value-5">Compromiso</span>
+  <span class="value-bubble value-6">Escucha activa</span>
+  <span class="value-bubble value-7">Autonomía</span>
+  <span class="value-bubble value-8">Comunidad</span>
+</div>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-card reveal">
+        <p>
+          “Cada experiencia suma una forma nueva de acompañar.”
+        </p>
+      </div>
+    </section>
+
+    <section id="frutos" class="section section-watch">
+      <div class="section-heading reveal">
+        <p class="eyebrow">08 · Frutos · Experiencia</p>
+        <h2>Experiencias que ya forman parte de mi recorrido.</h2>
+        <p>
+          Los frutos representan las experiencias prácticas que me han permitido aplicar
+          habilidades sociales, educativas y organizativas en contextos reales.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">2023 — 2025</div>
+          <div class="timeline-content">
+            <h3>Voluntaria en Cruz Roja</h3>
+            <p>
+              Planificación de actividades lúdico-educativas, fomento de la autonomía infantil
+              y resolución de conflictos.
+            </p>
+            <div class="experience-tags">
+              <span>Voluntariado</span>
+              <span>Infancia</span>
+              <span>Actividades educativas</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">2022 — 2023</div>
+          <div class="timeline-content">
+            <h3>Cuidado infantil</h3>
+            <p>
+              Atención a menores varias tardes por semana, desarrollando responsabilidad,
+              paciencia, comunicación y capacidad de adaptación.
+            </p>
+            <div class="experience-tags">
+              <span>Menores</span>
+              <span>Cuidado</span>
+              <span>Responsabilidad</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-date">Junio — Agosto 2023</div>
+          <div class="timeline-content">
+            <h3>Clases particulares</h3>
+            <p>
+              Apoyo escolar a niños de 7 a 9 años, refuerzo de hábitos de estudio
+              y acompañamiento educativo individualizado.
+            </p>
+            <div class="experience-tags">
+              <span>Apoyo educativo</span>
+              <span>Infancia</span>
+              <span>Organización</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="semillas" class="section contact-section section-watch">
+      <div class="contact-card reveal">
+        <p class="eyebrow">09 · Semillas · Contacto</p>
+
+        <h2>Preparada para seguir creciendo en contextos reales de intervención social.</h2>
+
+        <p>
+          Busco oportunidades para aplicar mis conocimientos, aprender de profesionales
+          del ámbito social y seguir desarrollándome en proyectos relacionados con personas,
+          comunidad, infancia y apoyo educativo.
+        </p>
+
+        <div class="contact-actions">
+          <a href="mailto:dptaliciat@gmail.com" class="btn btn-primary">Contactar por correo</a>
+
+          <a href="assets/curriculum-alicia.pdf" class="btn btn-secondary" download>
+            Descargar CV
+          </a>
+        </div>
+
+        <div class="contact-details">
+          <span>Miguelturra, Ciudad Real</span>
+          <span>Carnet de conducir B</span>
+          <span>Disponibilidad para viajar</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Alicia Díaz-Pinto Tercero · Ecosistema Social</p>
+    <a href="#inicio">Volver arriba</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
