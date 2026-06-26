@@ -990,6 +990,13 @@ main,
   box-shadow: var(--shadow);
 }
 
+.project-card-featured {
+  background:
+    radial-gradient(circle at 88% 12%, rgba(127, 147, 102, 0.22), transparent 30%),
+    linear-gradient(145deg, rgba(255, 253, 247, 0.94), rgba(229, 238, 218, 0.72));
+  border-color: rgba(127, 147, 102, 0.34);
+}
+
 .project-card::after {
   content: "";
   position: absolute;
@@ -1091,6 +1098,48 @@ main,
   line-height: 1.45;
 }
 
+.project-actions {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.project-button {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 17px;
+  border-radius: 999px;
+  background: rgba(255, 253, 247, 0.78);
+  border: 1px solid rgba(111, 73, 54, 0.16);
+  color: var(--earth-dark);
+  text-decoration: none;
+  font-size: 0.86rem;
+  font-weight: 900;
+  transition: transform 0.22s ease, background 0.22s ease, color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.project-button:hover {
+  transform: translateY(-3px);
+  background: rgba(239, 225, 209, 0.84);
+}
+
+.project-button-primary {
+  background: var(--leaf);
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 14px 26px rgba(82, 98, 63, 0.18);
+}
+
+.project-button-primary:hover {
+  background: var(--leaf-dark);
+  color: white;
+}
+
 .project-tags {
   position: relative;
   z-index: 1;
@@ -1113,7 +1162,7 @@ main,
 
 .profile-layout {
   display: grid;
-  grid-template-columns: minmax(320px, 0.72fr) 1.28fr;
+  grid-template-columns: minmax(350px, 0.82fr) 1.18fr;
   gap: 34px;
   align-items: center;
 }
@@ -1124,7 +1173,7 @@ main,
   overflow: hidden;
   aspect-ratio: 3 / 4;
   min-height: 0;
-  max-height: 620px;
+  max-height: 680px;
   box-shadow: var(--shadow);
   border: 1px solid var(--border);
   background: rgba(255, 253, 247, 0.74);
